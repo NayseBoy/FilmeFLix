@@ -1,0 +1,33 @@
+.content__main {
+    padding: 7% 0 0 0;
+}
+
+.content__Titulo {
+    background-color: rgba(255, 0, 0, 0.506);
+    font-size: 32px;
+    color: var(--branco);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.filmes__lista {
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor-principal);
+}
+
+.filmes__lista__swiper__imagem {
+    width: 270px;
+    border-radius: 5px;
+}
+
+.filmes__lista__titulo {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--branco);
+}
+

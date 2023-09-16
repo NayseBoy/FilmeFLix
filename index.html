@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmesFlix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="main-style.css">
+</head>
+<body>
+    <header class="cabeçalho">
+
+        <!-- mudando algumas coisas no codigo -->
+        <div class="cabeçalho__principal">
+
+            <h1 class="cabeçalho__titulo">
+                Filmes<big class="cabeçalho__titulo-big">FLIX</big>
+            </h1>
+
+            <div class="container__links">
+                <nav class="cabeçalho__links">
+                    <a href="#" class="cabeçalho__links-onPage">Inicio</a>
+                    <a href="#" class="cabeçalho__links-onPage">Series</a>
+                </nav>
+
+                <ul class="opçoes">
+                    <input type="checkbox" id="opçoes-menu" class="opçoes__botão">
+                    <label for="opçoes-menu">
+                        <li class="opçoes__item">Categorias▼</li>
+                    </label>
+
+                    <ul class="lista-menu">
+                        <li class="lista-menu__item">Ação</li>
+                        <li class="lista-menu__item">Aventura</li>
+                        <li class="lista-menu__item">Comédia</li>
+                        <li class="lista-menu__item">Animação</li>
+                        <li class="lista-menu__item">Terror</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+        <input type="search" placeholder="Pesquisar   -apesar de ser de enfeite" class="cabeçalho__search">
+
+    </header>
+
+    <div class="banner">
+
+        <div class="banner__textos">
+            <h2 class="banner__titulo">Filmes Ineditos!</h2>
+            <p class="banner__texto">Algums dos meus filmes preferidos que ja assisti em minha vida inteira.</p>
+        </div>
+
+        <div class="banner__imagem">
+            <img src="imgs/Flix.jpg" alt="Filmes Flix">
+        </div>
+    </div>
+
+    <main class="content__main">
+
+        <h2 class="content__Titulo">
+            Alguns Filmes:
+        </h2>
+
+        <ul class="filmes__lista">
+            <li class="filmes__lista__swiper">
+                <img src="imgs/Big-hero.jpg" alt="Operaçâo big Big-hero" class="filmes__lista__swiper__imagem">
+                <h3 class="filmes__lista__titulo"> Operaçâo Big-Hero</h3>
+            </li>
+
+            <li class="filmes__lista__swiper">
+                <img src="imgs/Alita-anjo.webp" alt="Alita anjo de combate" class="filmes__lista__swiper__imagem">
+                <h3 class="filmes__lista__titulo">Alita Anjo de Combate</h3>
+            </li>
+
+            <li class="filmes__lista__swiper">
+                <img src="imgs/kung-fu-panda.jpg" alt="Kung fu panda" class="filmes__lista__swiper__imagem">
+                <h3 class="filmes__lista__titulo">Kung-fu Panda</h3>
+            </li>
+
+            <li class="filmes__lista__swiper">
+                <img src="imgs/reino-escondido.jpg" alt="Reino escondido" class="filmes__lista__swiper__imagem">
+                <h3 class="filmes__lista__titulo">Reino Escondido</h3>
+            </li>
+
+            <li class="filmes__lista__swiper">
+                <img src="imgs/como-treinar-dragao.webp" alt="Como treinar seu dragão" class="filmes__lista__swiper__imagem">
+                <h3 class="filmes__lista__titulo">Como treinar o seu Dragão</h3>
+            </li>
+
+            <li class="filmes__lista__swiper">
+                <img src="imgs/sorria.jpg" alt="Sorria" class="filmes__lista__swiper__imagem">
+                <h3 class="filmes__lista__titulo">Sorria</h3>
+            </li>
+
+        </ul>
+
+    </main>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.banner {
+    border: 20px dashed var(--cor-principal);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-principal);
+    padding: 20px 110px 20px 70px;
+    margin: 100px 25% 0 25% ;
+    box-shadow: 10px 15px rgba(17, 17, 17, 0.566);
+}
+
+.banner__titulo {
+    color: rgb(212, 31, 31);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.banner__texto {
+    padding-top: 20px ;
+    color: var(--branco);
+    font-size: 32px;
+}
+

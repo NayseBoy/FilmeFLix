@@ -1,0 +1,19 @@
+@import url("styles/header-cabeçalho.css");
+@import url("styles/cabeçalho-banner.css");
+@import url("styles/content-main.css");
+
+:root {
+    --fonte: "Poppins";
+    --cor-principal: rgba(255,255,255,.08);
+    --cinza-claro: rgba(212, 211, 211, 0.199);
+    --preto: #000;
+    --branco: #FFF;
+    --vermelho: red;
+}
+
+body {
+    font-family: var(--fonte);
+    font-weight: 500;
+    font-size: 18px;
+    background-color: var(--preto);
+}
